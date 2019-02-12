@@ -6,9 +6,12 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
   
-  .text1 {
+  header, nav, section, aside, footer {
     background: #ebebeb;
+    width: 495px;
   }
 </style>
