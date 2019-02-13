@@ -18,12 +18,12 @@ header, nav, section, aside, footer {
 }
 
 header {
-  padding: 20px;
+  padding: 40px;
   margin-top: 10px;
 }
 
 nav {
-  padding: 20px;
+  padding: 40px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -31,34 +31,43 @@ nav {
 aside {
   float: left;
   width: 445px;
-  height: 350px;
+  height: 300px;
   margin-left: 20px;
+  padding: 40px;
 }  
 
 section {
   float: left;
   width: 495px;
-  height: 350px;
+  height: 300px;
+  padding: 40px;
   margin-bottom: 20px;
 }
 
 article {
+  position: relative;
+  right: 20px;
   width: 455px;
-  height: 250px;
+  height: 200px;
   background-color: #777;
   color: #ebebeb;
-  padding: 10px;
-  margin: 0;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 footer {
-  padding: 20px;
+  padding: 40px;
   clear: both;
   margin-top: 20px;
 }
 h1, p {
-  width: 425px;
+  width: 405px;
   color: #777;
   background: #ebebeb;
-  padding: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+h1 {
+  margin-top: 20px;
+  font-weight: bold;
 }
